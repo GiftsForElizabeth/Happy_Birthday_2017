@@ -8,12 +8,14 @@
 
 body {
     font-family: 'Lato', sans-serif;
-    font-weight: 400;
+    font-weight: bold;
 
-    font-size: 1em;
+    font-size: 1.2em;
     line-height: 1.6em;
 
-
+    background-image: url(http://www.desktop-background.com/download/o/2013/08/26/628956_download-free-happy-birthday-desktop-wallpapers_1920x1200_h.jpg);
+    background-size: cover;
+    background-attachment: fixed;
     /*background-image: url("http://www.birthdaynights.com/wp-content/uploads/2016/02/Happy-Birthday-Balloons-15.jpg");*/
     /*background-image: url("http://www.birthdaynights.com/wp-content/uploads/2016/02/Happy-Birthday-Balloons-15.jpg");
     background-repeat: no-repeat;
@@ -22,7 +24,8 @@ body {
     background-size: cover;*/ 
     /*background: #F0EFE7;*/
     color: #4E443C;
-    text-shadow: 0 1px 0 rgba(255,255,255, 0.9);
+    /*text-shadow: 0 1px 0 rgba(255,255,255, 0.9);*/
+    text-shadow: white 0px 0px 10px;
 
     margin: auto;
     padding: 0 10px;
@@ -35,6 +38,7 @@ h1 {
     line-height: 100%;
 
     color: #F14E32;
+    text-shadow: none;
 
     margin: 30px 0 20px 0;
     text-align: center;
@@ -61,7 +65,8 @@ h3 {
     font-family: 'Arvo', serif;
     font-weight: 700;
     font-size: 30px;
-    color: #4E443C;
+    color: #9242F4;
+    /*text-shadow: none;*/
 }
 
 h4 {
@@ -119,4 +124,25 @@ a {
     h2 {
         font-size: 16px;
     }
+}
+
+p {
+    z-index: 999;
+}
+
+.img-link {
+  text-decoration: none;
+}
+
+.round-img {
+  width: 100px;
+  height: 130px;
+  border-radius: 50%;
+  margin-left: 5px;
+}
+
+.tst {
+    background-color:black;
+    z-index:0;
+    opacity:0.5;
 }
